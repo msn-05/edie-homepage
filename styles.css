@@ -38,8 +38,15 @@
   border-radius: 16px;
 }
 .intro{
-  width: 40%;
-  margin-left: 30%;
+  width: 50%;
+  margin-left: 20%;
+}
+h1{
+  font-size: 45px;
+  font-weight: 500;
+}
+p{
+  font-size: 20px;
 }
 .email{
   border-radius: 10px;
@@ -54,6 +61,28 @@
   border-radius:10px;
   background-color: skyblue;
   border: transparent;
+}
+.email, .join{
+  font-size: 20px;
+}
+#services{
+  display: flex;
+  width:90%;
+  margin: auto;
+  justify-content: space-around;
+}
+.card{
+  padding: 20px;
+  flex:30%;
+  max-width: 30%;
+  border-radius: 15px;
+  transition: box-shadow 100ms;
+}
+.card:hover{
+  box-shadow: 5px 5px 20px rgba(110, 110, 110, 0.3),-5px -5px 20px rgba(110, 110, 110, 0.3);
+}
+.card .join{
+  margin-left: 0;
 }
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
