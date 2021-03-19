@@ -97,6 +97,7 @@ p{
   }
   #services{
     flex-direction: column;
+    gap:50px;
   }
   .card{
     flex:100%;
