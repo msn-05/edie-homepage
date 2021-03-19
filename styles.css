@@ -95,6 +95,13 @@ p{
     width: 90%;
     margin-left: 10px;
   }
+  #services{
+    flex-direction: column;
+  }
+  .card{
+    flex:100%;
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {
