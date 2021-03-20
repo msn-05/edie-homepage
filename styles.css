@@ -20,7 +20,7 @@
   color: inherit;
 }
 .topnav a:not(:first-child){
-  margin-left: 7%;
+  margin-left: 6%;
 }
 .topnav .icon {
   display: none;
@@ -84,8 +84,84 @@ p{
 .card .join{
   margin-left: 0;
 }
+#works{
+  width: 90%;
+  margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.work{
+  flex:47%;
+  max-width: 47%;
+}
+.work-img img{
+  width: 100%;
+  border-radius: 20px;
+}
+.seemore{
+  color: deepskyblue;
+  font-weight: lighter;
+  text-align: right;
+  margin-top: -50px;
+  margin-right: 20px;
+}
+.seemore a{
+  text-decoration: none;
+  color: inherit;
+}
+#team{
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pics{
+  display: flex;
+  margin-left: 20px;
+  flex-wrap: wrap;
+}
+.pics img{
+  width: 100%;
+  border-radius: 20px;
+}
+.intros{
+  align-self: center;
+}
+#img1{
+  flex:50%;
+  max-width: 50%;
+  position: relative;
+  top:25%;
+}
+#img2{
+  flex:40%;
+  max-width: 40%;
+  align-self: flex-end;
+  margin-left: 5%;
+}
+#img3{
+  flex:50%;
+  max-width: 50%;
+  margin-left: 55%;
+}
+@media screen and (min-width: 600px){
+  .work:nth-of-type(2n-1) {
+    margin-top: 100px;
+  }
+  .intros{
+    flex:40%;
+    max-width: 40%;
+  }
+  .pics{
+    flex:50%;
+    max-height: 50%;
+  }
+}
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
@@ -103,10 +179,38 @@ p{
     flex:100%;
     max-width: 100%;
   }
+  #works{
+    gap: 50px;
+  }
+  .work{
+    flex: 100%;
+    max-width: 100%;
+  }
+  .seemore{
+    text-align: left;
+    margin-left: 10px;
+  }
+  #team{
+    flex-direction: column;
+  }
+  .intros{
+    flex:100%;
+    max-width: 100%;
+  }
+  .pics{
+    flex:100%;
+    max-width: 100%;
+  }
+  #img1 img{
+    position: relative;
+    top:50%;
+  }
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
