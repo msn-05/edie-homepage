@@ -145,6 +145,26 @@ p{
   max-width: 50%;
   margin-left: 55%;
 }
+#contact{
+  background:#100E1D;
+  color: white;
+  padding: 15px;
+}
+#contact a{
+  text-decoration: none;
+  color: inherit;
+}
+.links{
+  display: flex;
+  align-items: center;
+}
+.nav-links a{
+  display: block;
+}
+.links div{
+  flex:30%;
+  max-width: 30%;
+}
 @media screen and (min-width: 600px){
   .work:nth-of-type(2n-1) {
     margin-top: 100px;
@@ -157,6 +177,10 @@ p{
     flex:50%;
     max-height: 50%;
   }
+.links div:nth-of-type(3n){
+  flex:40%;
+  max-width: 40%;
+}
 }
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
@@ -204,6 +228,16 @@ p{
   #img1 img{
     position: relative;
     top:50%;
+  }
+  .links{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .links div{
+    flex:100%;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 
