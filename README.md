@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://edie-homepage-by-msn.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/XYpy6riWcv03ZInylGtz">
       Solution
     </a>
     <span> | </span>
@@ -87,6 +87,5 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [msn-05.github.io](https://msn-05.github.io)
+- GitHub [@msn-05](https://{github.com/your-usermame})
